@@ -5,11 +5,11 @@ class Patient(models.Model):
     # model representing patient
     GENDER_CHOICES = [('M', 'Male'), ('F', 'Female')]
     ssn = models.IntegerField('SSN', blank=False, primary_key=True)
-    title = models.CharField(max_length=10)
-    suffix = models.CharField(max_length=4)
-    first_name = models.CharField('First Name', max_length=50, blank=False)
-    last_name = models.CharField('Last Name', max_length=50, blank=False)
-    gender = models.CharField(max_length=1, choices=GENDER_CHOICES, blank=False)
+    title = models.CharField(max_length=10, blank=True)
+    suffix = models.CharField(max_length=4, blank=True)
+    first_name = models.CharField('First Name', max_length=50)
+    last_name = models.CharField('Last Name', max_length=50)
+    gender = models.CharField(max_length=1, choices=GENDER_CHOICES)
     dob = models.DateTimeField('Date of Birth')
     address = models.CharField(max_length=20)
     city = models.CharField(max_length=20)
@@ -18,9 +18,8 @@ class Patient(models.Model):
     country = models.CharField(max_length=20)
     phone_number = models.IntegerField()
     email = models.EmailField()
-
-    race = models.CharField(max_length=20)
-    language = models.CharField(max_length=30)
+    # race = models.CharField(max_length=20)
+    # language = models.CharField(max_length=30)
     insurance = models.CharField('Health Insurance Carrier', max_length=50, blank=False)
     credit_card = models.CharField(max_length=30, blank=False)
     credit_card_number = models.IntegerField(blank=False)
