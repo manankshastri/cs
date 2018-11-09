@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>NYmed Scripts Home</h1>
+  <p><em>Welcome to NYmed Scripts</em>!!!</p>
+  <h2>Dynamic content</h2>
+  <p>The database has the following record counts:</p>
+  <ul>
+    <li><strong>Patients Registered:</strong> {{ num_patients }}</li>
+    <li><strong>Doctors:</strong> {{ num_doctors }}</li>
+  </ul>
+{% endblock %}
