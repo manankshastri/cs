@@ -6,7 +6,7 @@
   <ul>
     {% for doctor in doctor_list %}
       <li>
-        <a href="{{ doctor.get_absolute_url }}">{{ doctor.first_name }} {{ doctor.last_name}}</a>
+        <a href="{{ doctor.get_absolute_url }}"> {{ doctor.prefix }} {{ doctor.first_name }} {{ doctor.last_name}}</a>
       </li>
     {% endfor %}
   </ul>

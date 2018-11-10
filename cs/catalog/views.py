@@ -24,6 +24,7 @@ def index(request):
 
 class PatientListView(generic.ListView):
     model = Patient
+    paginate_by = 10
 
 
 class PatientDetailView(generic.DetailView):
@@ -32,6 +33,7 @@ class PatientDetailView(generic.DetailView):
 
 class DoctorListView(generic.ListView):
     model = Doctor
+    paginate_by = 10
 
 
 class DoctorDetailView(generic.DetailView):
