@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Patient, Doctor, Prescription, Hospital
+from .models import Patient, Doctor, Prescription, Hospital, Pharmacy
 # Register your models here.
 
 # admin.site.register(Patient)
@@ -29,9 +29,14 @@ class PatientAdmin(admin.ModelAdmin):
 
 @admin.register(Prescription)
 class PrescriptionAdmin(admin.ModelAdmin):
-    list_display = ('patient', 'doctor', 'desc')
+    list_display = ('patient', 'doctor', 'dop', 'desc', 'drug')
 
 
 @admin.register(Hospital)
 class HospitalAdmin(admin.ModelAdmin):
     list_display = ('id', 'depart')
+
+
+@admin.register(Pharmacy)
+class PharmacyAdmin(admin.ModelAdmin):
+    list_display = ('id', 'drugid')

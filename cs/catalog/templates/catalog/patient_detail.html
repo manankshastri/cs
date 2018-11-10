@@ -12,7 +12,9 @@
     {% for p in patient.prescription_set.all %}
       <hr>
       <p><strong>Doctor: </strong> {{p.doctor}}</p>
-      <p><strong>Medication Details: </strong> {{p.desc}}</p>
+      <p><strong>Prescription Date: </strong> {{p.dop}}</p>
+      <p><strong>Prescription Details: </strong> {{p.desc}}</p>
+      <p><strong>Drug ID: </strong> {{p.drug}}</p>
     {% endfor %}
   </div>
 
