@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Patient, Doctor, Prescription
+from django.views import generic
 
 
 # Create your views here.
@@ -19,3 +20,19 @@ def index(request):
 
     # render the HTML template index.html with the data in the context variable
     return render(request, 'index.html', context=context)
+
+
+class PatientListView(generic.ListView):
+    model = Patient
+
+
+class PatientDetailView(generic.DetailView):
+    model = Patient
+
+
+class DoctorListView(generic.ListView):
+    model = Doctor
+
+
+class DoctorDetailView(generic.DetailView):
+    model = Doctor

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>{{ patient.first_name }} {{ patient.last_name}}</h1>
+
+  <p><strong>SSN: </strong> {{ patient.ssn }}</p>
+  <p><strong>Gender: </strong> {{ patient.gender }}</p>
+
+{% endblock %}

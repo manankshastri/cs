@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class Patient(models.Model):
@@ -14,6 +15,10 @@ class Patient(models.Model):
 
     def __str__(self):
         return f'{self.first_name} {self.last_name}'
+
+    def get_absolute_url(self):
+        """Returns the url to access a detail record for this book."""
+        return reverse('patient-detail', args=[str(self.ssn)])
 
 
 class Doctor(models.Model):
@@ -32,6 +37,10 @@ class Doctor(models.Model):
 
     class Meta:
         ordering = ['first_name', 'last_name']
+
+    def get_absolute_url(self):
+        """Returns the url to access a detail record for this book."""
+        return reverse('doctor-detail', args=[str(self.ssn)])
 
 
 class Prescription(models.Model):
