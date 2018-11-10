@@ -47,7 +47,7 @@ class Prescription(models.Model):
     # model representing prescription
     patient = models.ForeignKey(Patient, on_delete=models.SET_NULL, null=True)
     doctor = models.ForeignKey(Doctor, on_delete=models.SET_NULL, null=True)
-    desc = models.TextField('Prescription', help_text='Enter the prescription : ')
+    desc = models.TextField('Prescription', help_text='Enter the prescription : ', null=True)
 
     def __str__(self):
         return f'{self.patient} {self.doctor} {self.desc}'
