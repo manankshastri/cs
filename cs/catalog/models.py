@@ -2,6 +2,18 @@ from django.db import models
 from django.urls import reverse
 
 
+class Hospital(models.Model):
+    HOP = [('1', 'Cardiology'), ('2', 'ENT'), ('3', 'Orthopaedics')]
+    id = models.IntegerField('ID', primary_key=True)
+    depart = models.CharField('Hospital Dept', max_length=25, choices=HOP, null=True, blank=False)
+
+    class Meta:
+        ordering = ['id']
+
+    def __str__(self):
+        return f'{self.id}'
+
+
 class Patient(models.Model):
     # model representing patient
     GENDER_CHOICES = [('M', 'Male'), ('F', 'Female')]
@@ -28,6 +40,7 @@ class Doctor(models.Model):
     prefix = models.CharField(max_length=2, choices=PREFIX)
     first_name = models.CharField('First Name', max_length=50)
     last_name = models.CharField('Last Name', max_length=50)
+    hosp_id = models.ForeignKey(Hospital, on_delete=models.SET_NULL, null=True)
     specialty = models.CharField(max_length=50)
     # patient = models.ManyToManyField(Patient)
     # description = models.TextField()
@@ -47,8 +60,10 @@ class Prescription(models.Model):
     # model representing prescription
     patient = models.ForeignKey(Patient, on_delete=models.SET_NULL, null=True)
     doctor = models.ForeignKey(Doctor, on_delete=models.SET_NULL, null=True)
+    dop = models.DateField(null=True, blank=False)
     desc = models.TextField('Prescription', help_text='Enter the prescription : ', null=True)
 
     def __str__(self):
         return f'{self.patient} {self.doctor} {self.desc}'
+
 

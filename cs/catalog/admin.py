@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Patient, Doctor, Prescription
+from .models import Patient, Doctor, Prescription, Hospital
 # Register your models here.
 
 # admin.site.register(Patient)
@@ -12,8 +12,8 @@ class PrecInLine(admin.TabularInline):
 
 # define the doctor admin class
 class DoctorAdmin(admin.ModelAdmin):
-    list_display = ('ssn', 'first_name', 'last_name', 'specialty')
-    fields = ['ssn', ('prefix', 'first_name', 'last_name'), 'specialty']
+    list_display = ('ssn', 'first_name', 'last_name', 'specialty', 'hosp_id')
+    fields = ['ssn', ('prefix', 'first_name', 'last_name'), ('specialty', 'hosp_id')]
     inlines = [PrecInLine]
 
 
@@ -30,3 +30,8 @@ class PatientAdmin(admin.ModelAdmin):
 @admin.register(Prescription)
 class PrescriptionAdmin(admin.ModelAdmin):
     list_display = ('patient', 'doctor', 'desc')
+
+
+@admin.register(Hospital)
+class HospitalAdmin(admin.ModelAdmin):
+    list_display = ('id', 'depart')
