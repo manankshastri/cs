@@ -6,4 +6,14 @@
   <p><strong>SSN: </strong> {{ patient.ssn }}</p>
   <p><strong>Gender: </strong> {{ patient.gender }}</p>
 
+  <div style="margin-left:20px;margin-top:20px">
+    <h4>Prescriptions: </h4>
+
+    {% for p in patient.prescription_set.all %}
+      <hr>
+      <p><strong>Doctor: </strong> {{p.doctor}}</p>
+      <p><strong>Prescription: </strong> {{p.desc}}</p>
+    {% endfor %}
+  </div>
+
 {% endblock %}

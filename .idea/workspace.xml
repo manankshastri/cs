@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a9cfd4-a72a-4619-b0ef-a620975c3243" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cs/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs/catalog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs/catalog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/cs/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/catalog/templates/catalog/patient_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/templates/catalog/patient_detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +38,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="556" />
+          <entry key="html" value="581" />
           <entry key="py" value="4543" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="556" />
+          <entry key="HTML" value="581" />
           <entry key="Python" value="4543" />
         </counts>
       </usages-collector>
@@ -72,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs/catalog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="143">
               <caret line="30" column="13" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -122,8 +117,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/patient_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="220">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -430,9 +428,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cs/catalog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="143">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -444,17 +449,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/patient_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="220">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
