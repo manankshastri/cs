@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a9cfd4-a72a-4619-b0ef-a620975c3243" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cs/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cs/catalog/templates/catalog/patient_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/templates/catalog/patient_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/catalog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cs/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/cs/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +18,14 @@
     <session id="458079038">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.45" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,25 +44,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="791" />
-          <entry key="py" value="5577" />
+          <entry key="html" value="794" />
+          <entry key="py" value="5687" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="791" />
-          <entry key="Python" value="5577" />
+          <entry key="HTML" value="794" />
+          <entry key="Python" value="5687" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cs/catalog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="9" column="84" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+            <state relative-caret-position="220">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -68,19 +70,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs/catalog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="760">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1541884186011" expanded="true" signature="687:789" ph="..." />
-                <marker date="1541884186011" expanded="true" signature="817:822" ph="..." />
-                <marker date="1541884186011" expanded="true" signature="817:1169" ph="..." />
-                <marker date="1541884186011" expanded="true" signature="1506:1511" ph="..." />
-                <marker date="1541884186011" expanded="true" signature="2413:2418" ph="..." />
-                <marker date="1541884186011" expanded="true" signature="2894:2931" ph="..." />
               </folding>
             </state>
           </provider>
@@ -105,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs/catalog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
+            <state relative-caret-position="820">
               <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -123,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -132,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="140">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -162,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs/catalog/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="820">
+              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -205,14 +201,14 @@
         <option value="$PROJECT_DIR$/cs/cs/settings.py" />
         <option value="$PROJECT_DIR$/cs/catalog/templates/index.html" />
         <option value="$PROJECT_DIR$/cs/catalog/templates/catalog/patient_list.html" />
-        <option value="$PROJECT_DIR$/cs/catalog/urls.py" />
-        <option value="$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_detail.html" />
-        <option value="$PROJECT_DIR$/cs/catalog/templates/base.html" />
         <option value="$PROJECT_DIR$/cs/catalog/views.py" />
         <option value="$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_list.html" />
         <option value="$PROJECT_DIR$/cs/catalog/admin.py" />
-        <option value="$PROJECT_DIR$/cs/catalog/models.py" />
         <option value="$PROJECT_DIR$/cs/catalog/templates/catalog/patient_detail.html" />
+        <option value="$PROJECT_DIR$/cs/catalog/models.py" />
+        <option value="$PROJECT_DIR$/cs/catalog/templates/base.html" />
+        <option value="$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_detail.html" />
+        <option value="$PROJECT_DIR$/cs/catalog/urls.py" />
       </list>
     </option>
   </component>
@@ -236,6 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,13 +270,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -318,7 +314,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -390,10 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cs/catalog/urls.py">
+    <entry file="file://$PROJECT_DIR$/cs/catalog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="84" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+        <state relative-caret-position="760">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -414,24 +410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/patient_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cs/catalog/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -442,16 +424,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cs/catalog/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cs/catalog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
+        <state relative-caret-position="820">
           <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -475,18 +464,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cs/catalog/models.py">
+    <entry file="file://$PROJECT_DIR$/cs/catalog/templates/catalog/doctor_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="140">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs/catalog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1541884186011" expanded="true" signature="687:789" ph="..." />
-            <marker date="1541884186011" expanded="true" signature="817:822" ph="..." />
-            <marker date="1541884186011" expanded="true" signature="817:1169" ph="..." />
-            <marker date="1541884186011" expanded="true" signature="1506:1511" ph="..." />
-            <marker date="1541884186011" expanded="true" signature="2413:2418" ph="..." />
-            <marker date="1541884186011" expanded="true" signature="2894:2931" ph="..." />
           </folding>
         </state>
       </provider>
