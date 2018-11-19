@@ -38,7 +38,3 @@ class DoctorListView(generic.ListView):
 
 class DoctorDetailView(generic.DetailView):
     model = Doctor
-
-
-class DoctorAddView(generic.DetailView):
-    model = Doctor

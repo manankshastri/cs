@@ -67,7 +67,7 @@ class Doctor(models.Model):
 
     def get_absolute_url(self):
         """Returns the url to access doctor detail."""
-        return reverse('doctor-detail', args=[str(self.ssn)]), reverse('doctor-add-presc', args=[str(self.ssn)])
+        return reverse('doctor-detail', args=[str(self.ssn)])
 
 
 class Prescription(models.Model):
